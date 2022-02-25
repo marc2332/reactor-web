@@ -14,19 +14,19 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <h1 className={styles.title}>
           <div className={styles.logo}>
-            <Image src="/reactor.svg" height="145.94" width="145.94" ></Image>
+            <Image src="/reactor.svg" height="145.94" width="145.94" alt="Reactor logo" ></Image>
           </div>
           Reactor Wallet
         </h1>
         <p className={styles.description}>
           Non-custodial, open-source, cross-platform (Only Windows and Android for now), wallet for <a href="https://solana.com/" className={styles.solana}>Solana Blockchain</a> with <a href="https://solanapay.com/" className={styles.solana}>Solana Pay</a> integration, NFTs, multiple wallets, watch-only accounts, connect to any network...
         </p>
-        <p className={styles.description}>It's currently being developed, coming soon!</p>
+        <p className={styles.description}>Currently being developed, coming soon!</p>
         <div>
-          <a href="https://github.com/marc2332/reactor-wallet" target="_blank">
+          <a href="https://github.com/marc2332/reactor-wallet" target="_blank" rel="noreferrer">
             <button className={styles.sourceCodeButton}>Source Code</button>
           </a>
-          <a href="https://twitter.com/ReactorWallet" target="_blank">
+          <a href="https://twitter.com/ReactorWallet" target="_blank" rel="noreferrer">
            <button className={styles.sourceCodeButton}>Twitter</button>
           </a>
         </div>
