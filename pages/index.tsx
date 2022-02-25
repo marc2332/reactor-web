@@ -24,10 +24,10 @@ const Home: NextPage = () => {
         <p className={styles.description}>Currently being developed, coming soon!</p>
         <div>
           <a href="https://github.com/marc2332/reactor-wallet" target="_blank" rel="noreferrer">
-            <button className={styles.sourceCodeButton}>Source Code</button>
+            <button className={styles.button}>Source Code</button>
           </a>
           <a href="https://twitter.com/ReactorWallet" target="_blank" rel="noreferrer">
-           <button className={styles.sourceCodeButton}>Twitter</button>
+           <button className={styles.button}>Twitter</button>
           </a>
         </div>
       </main>
