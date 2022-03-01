@@ -19,7 +19,8 @@ const Home: NextPage = () => {
           Reactor Wallet
         </h1>
         <p className={styles.description}>
-          Non-custodial, open-source, cross-platform (Only Windows and Android for now), wallet for <a href="https://solana.com/" className={styles.solana}>Solana Blockchain</a> with <a href="https://solanapay.com/" className={styles.solana}>Solana Pay</a> integration, NFTs, multiple wallets, watch-only accounts, connect to any network...
+          Non-custodial, open-source, cross-platform (Only Windows and Android for now), wallet for  <a href="https://solana.com/" className={styles.solana}>Solana Blockchain</a>  with  <a href="https://solanapay.com/" className={styles.solana}> Solana Pay</a> integration, 
+          NFTs, multiple wallets, optional watch-only wallets, connect to any network...
         </p>
         <p className={styles.description}>Currently being developed, coming soon!</p>
         <div>
